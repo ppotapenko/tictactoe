@@ -1,0 +1,17 @@
+{
+    "name": "me/tictactoe",
+    "description": "Tic tac toe test",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jerzy Zawadzki"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "4.2.*"
+    },
+    "autoload": {
+        "psr-4": {"Foo\\": "src/Foo"}
+    }
+}
